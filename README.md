@@ -1,1 +1,1 @@
-# OnlineExamApp
+I have used HTML,Javascript and CSS to program. In this app I kept data in a JSON file and prepared some questions for you to ask. At the end of this exam, you will be evaluated by the program that gives you a score and show you which questions you checked the wrong option. Once you open this app you probably get CORS error, if you use Localhost to open this app, you will not get an error. This is why origins don't match.
