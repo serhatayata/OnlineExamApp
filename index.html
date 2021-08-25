@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Sınav Uygulaması</title>
+    <link rel="icon" href="./img/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<!-- ------------------------------------------- -->
+<div id="sinav">
+    <div class="soruAlani">
+        <h2 id="soru">Buraya soru gelecek</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="secenek" id="secenekA">
+                    <label for="secenekA" id="aciklamaA">SecenekA icerigi gelecek</label>
+                </li>
+                <li>
+                    <input type="radio" name="secenek" id="secenekB">
+                    <label for="secenekB" id="aciklamaB">SecenekB icerigi gelecek</label>
+                </li>
+                <li>
+                    <input type="radio" name="secenek" id="secenekC">
+                    <label for="secenekC" id="aciklamaC">SecenekC icerigi gelecek</label>
+                </li>
+                <li>
+                    <input type="radio" name="secenek" id="secenekD">
+                    <label for="secenekD" id="aciklamaD"> SecenekD icerigi gelecek</label>
+                </li>
+            </ul>
+    </div>
+        <button id="gonder">Cevabı Gönder</button>
+</div>
+<script src="./js/OnlineExam.js"></script>
+</body>
+</html>

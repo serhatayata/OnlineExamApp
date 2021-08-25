@@ -1,0 +1,36 @@
+{
+    "sorular" : [
+        {
+            "soru" : "Aşağıdakilerden hangisi Javascript ile açılır pencerede yazdırma fonksiyonudur?",
+            "aciklamaA" : "alert()",
+            "aciklamaB" : "document.write()",
+            "aciklamaC" : "console.log()",
+            "aciklamaD" : "document.querySelector()",
+            "cevap" : "secenekA"
+        },
+        {
+            "soru" : "Aşağıdakilerden hangisi Javascript'in harici veri kullanma yapılarından değildir?",
+            "aciklamaA" : "JavaScript Object",
+            "aciklamaB" : "JSON",
+            "aciklamaC" : "MySql",
+            "aciklamaD" : "MongoDB",
+            "cevap" : "secenekB"
+        },
+        {
+            "soru" : "Aşağıdakilerden hangisi transaction için tüm işlemleri geri alır?",
+            "aciklamaA" : "begin tran",
+            "aciklamaB" : "end tran",
+            "aciklamaC" : "commit tran",
+            "aciklamaD" : "rollback",
+            "cevap" : "secenekD"
+        },
+        {
+            "soru" : "Aşağıdakilerden hangisi SQL Join yapısına örnek olarak gösterilmez?",
+            "aciklamaA" : "inner join",
+            "aciklamaB" : "full join",
+            "aciklamaC" : "half join",
+            "aciklamaD" : "left join",
+            "cevap" : "secenekC"
+        }
+    ]
+}
